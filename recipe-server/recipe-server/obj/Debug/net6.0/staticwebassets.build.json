@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bFif7MprcLdxd9cBeMK+gxBwZnGztcyH+dDkYShMdio=",
+  "Source": "recipe-server",
+  "BasePath": "_content/recipe-server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

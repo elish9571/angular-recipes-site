@@ -1,0 +1,78 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container register">
+    <div class="row">
+        <div class="col-md-3 register-left">
+            <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+            <h3>Tips for your recipe</h3><br>
+            <p>Put a picture! It attracts the reader's eye. <br/>
+            A successful recipe will be rated at a higher level</p>
+            <input type="submit" name="" value="Cancel" (click)="cancel()"/><br />
+        </div>
+        <div class="col-md-9 register-right">
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true">Exit</a>
+              
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h3 class="register-heading">ADD A RECIPE</h3>
+                    <div class="row register-form">
+                        <div class="col-md-6">
+                            <div class="form-group" [formGroup]="recipeForm">
+                                <input type="text" formControlName="name" class="form-control" placeholder="Recipe Name *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <select formControlName="categoryId" class="form-control">
+                                    <option class="hidden" selected disabled>Select Category:</option>
+                                    <option>Pies</option>
+                                    <option>Toppings</option>
+                                    <option>Miscellaneous</option>
+                                    <option>Last Dishes</option>
+                                    <option>First Dishes</option>
+                                    <option>Cookies</option>
+                                    <option>Cakes</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" formControlName="preparationTimeInMinutes" class="form-control" placeholder="Preparation Time *" value=""
+                                    min="0" />
+                            </div>
+                            <div class="form-group">
+                                <input type="number" formControlName="difficultyLevel" class="form-control" placeholder="Difficulty *" value="" max="5"
+                                    min="0" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="date" formControlName="dateAdded" class="form-control" placeholder="Date Recipe Added *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" formControlName="ingredients" class="form-control" placeholder="Ingredients List *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" formControlName="image" class="form-control" placeholder="Image *" value="" />
+                            </div>
+                            <div class="col-sm-6 col-sm-offset-1">
+                                <div class="form-group">
+                                    <label>Preparation</label>
+                                    <textarea class="form-control" placeholder="" #textArea rows="4"
+                                        (input)="onTextAreaChange(textArea.value)"></textarea>
+                                </div>
+                            </div>
+
+                            <input type="submit" (click)="saveRecipe()" class="btnRegister" value="Add" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

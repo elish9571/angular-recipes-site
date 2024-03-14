@@ -1,0 +1,18 @@
+<mat-toolbar >
+    <div  class="log">
+      <p-avatar class="vavatar" shape="circle" size="normal"><mat-icon>person</mat-icon></p-avatar>
+      <span (click)="login()" class="l"> התחברות \ </span>
+      <span (click)="logout()" class="l"> יציאה </span>
+</div>
+<div class="hr"><hr></div>
+  <div class="items">
+    <div><h5 ><b class="text-color">מתכונים</b> בטעם שלך</h5></div>
+   
+    <div class="links">
+      <div class="link" (click)="toAddRecipe()">הוספת מתכון<mat-icon class="lock-icon">add</mat-icon></div>
+      <div class="link" (click)="toAllRecipes()">מתכונים<mat-icon class="lock-icon">person</mat-icon></div>
+    </div>
+
+  </div>
+</mat-toolbar>
+

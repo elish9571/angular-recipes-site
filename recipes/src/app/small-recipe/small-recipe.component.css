@@ -1,0 +1,42 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.side-bar {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-card {
+  max-width: 400px;
+  margin: 20px; /* Add margin for spacing between cards */
+}
+
+.example-header-image {
+  background-size: cover;
+  width: 100%;
+  height: 200px; /* Set a fixed height for the header image */
+}
+.img{
+  margin-top: 17vh;
+  height: 82vh;
+}

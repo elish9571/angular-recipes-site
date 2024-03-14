@@ -1,0 +1,30 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<div class="card-container">
+    <div class="card">
+        <div class="card-body">
+            <!-- Form register -->
+            <form [formGroup]="loginForm">
+                <h2 class="text-center font-up font-bold deep-orange-text py-4">Sign in</h2>
+                <div class="md-form">
+                    <i class="fa fa-user prefix grey-text"></i>
+                    <input type="text" placeholder="Your name" formControlName="name" id="orangeForm-name3" class="form-control">
+                </div>
+                <div class="md-form">
+                    <i class="fa fa-lock prefix grey-text"></i>
+                    <input type="password" placeholder="Your password" formControlName="password" id="orangeForm-pass3"
+                        class="form-control">
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-deep-orange"
+                        (click)="checkUserExists()">next<i
+                            class="fa fa-angle-double-right pl-2" aria-hidden="true"></i></button>
+                </div>
+                <button class="btn btn-deep-orange" (click)="add()">add Recipe</button>
+            </form>
+            
+            <!-- Form register -->
+        </div>
+    </div>
+    <!-- <img class="img-login" src="/src/assets/1.jpg" alt="burger" /> -->
+</div>
