@@ -30,3 +30,35 @@ C:\Users\1\Documents\שנה ב לימודים\angular\project\recipe-server\reci
 C:\Users\1\Documents\שנה ב לימודים\angular\project\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.pdb
 C:\Users\1\Documents\שנה ב לימודים\angular\project\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.genruntimeconfig.cache
 C:\Users\1\Documents\שנה ב לימודים\angular\project\recipe-server\recipe-server\obj\Debug\net6.0\ref\recipe-server.dll
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\appsettings.json
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\recipe-server.exe
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\recipe-server.deps.json
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\recipe-server.runtimeconfig.json
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\recipe-server.dll
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\recipe-server.pdb
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.csproj.AssemblyReference.cache
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.AssemblyInfoInputs.cache
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.AssemblyInfo.cs
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\staticwebassets\msbuild.recipe-server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\staticwebassets\msbuild.build.recipe-server.props
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.recipe-server.props
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.recipe-server.props
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\scopedcss\bundle\recipe-server.styles.css
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.csproj.CopyComplete
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.dll
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\refint\recipe-server.dll
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.pdb
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\recipe-server.genruntimeconfig.cache
+C:\Users\1\Documents\שנה ב לימודים\angular\‏‏project - עותק\recipe-server\recipe-server\obj\Debug\net6.0\ref\recipe-server.dll

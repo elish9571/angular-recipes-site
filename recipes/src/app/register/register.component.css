@@ -89,6 +89,7 @@
 }
 
 .card {
+    margin-top: 17%;
     margin-left: 20%;
     justify-content: center;
     max-width: 400px;

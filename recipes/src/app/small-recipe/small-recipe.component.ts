@@ -4,11 +4,13 @@ import { RecipeService } from '../recipe.service';
 import { MatCard, MatCardActions, MatCardContent, MatCardHeader, MatCardSubtitle, MatCardTitle } from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-small-recipe',
   standalone: true,
   imports: [
+    CommonModule,
     MatCard,
     MatCardTitle,
     MatCardSubtitle,
@@ -35,7 +37,7 @@ export class SmallRecipeComponent {
   };
   @Input()
   public recipeName!: string;
-
+isMoreDetails:boolean=false;
   constructor(private _recipeService: RecipeService) { }
 
   ngOnInit(): void {
@@ -48,5 +50,16 @@ export class SmallRecipeComponent {
         console.log('error: ', err);
       }
     })
+  }
+
+  showToMoreDetails()
+  {
+    if(sessionStorage.getItem("user"))
+   {
+    this.isMoreDetails=true;
+   } 
+   else{
+    alert("כדי לראות את הפרטים עליך לבצע התחברות לאתר")
+   }
   }
 }

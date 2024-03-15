@@ -30,7 +30,7 @@ namespace recipe_server.Controllers
         {
             User user = new User(value);
             userList.Add(user);
-            return Ok();
+            return Ok(user);
         }
 
         // PUT api/<UserController>/5

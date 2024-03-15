@@ -18,7 +18,7 @@ export class HeaderComponent {
   constructor(private route: Router) { }
 
   toAllRecipes() {
-    this.route.navigate(['']);
+    this.route.navigate(['allrecipes']);
   }
   toAddRecipe() {
     this.route.navigate(['/addrecipes']);
@@ -37,9 +37,9 @@ export class HeaderComponent {
     }).then((result) => {
       if (result.isConfirmed) {
         this.route.navigate(['']);
-        const user = localStorage.getItem('user');
+        const user = sessionStorage.getItem('user');
         if (user) {
-          localStorage.removeItem('user');
+          sessionStorage.removeItem('user');
         }
       }
     });
@@ -61,9 +61,9 @@ export class HeaderComponent {
     }).then((result) => {
       if (result.isConfirmed) {
         this.route.navigate(['']);
-        const user = localStorage.getItem('user');
+        const user = sessionStorage.getItem('user');
         if (user) {
-          localStorage.removeItem('user');
+          sessionStorage.removeItem('user');
         }
       }
     });

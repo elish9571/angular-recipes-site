@@ -1,42 +1,74 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <div class="row">
     <div class="col-md-6 mb-4">
         <div class="card">
-            <div class="card-body">
+            <div class="card-body"> 
+
                 <!-- Form register -->
-                <form>
+                <!-- <form (submit)="confirm(un.value,ue.value,up.value,ua.value); $event.preventDefault()"> -->
+                
+                    <form [formGroup]="registerForm">
                     <h2 class="text-center font-up font-bold deep-orange-text py-4">Sign up</h2>
-                    <div class="md-form">
+                    <div class="md-form" >
                         <i class="fa fa-user prefix grey-text"></i>
-                        <input type="text" placeholder="Your name" #uname value="{{name}}" id="orangeForm-name3"
+                        <input type="text" formControlName="name" placeholder="Your name" value="{{name}}" id="orangeForm-name3"
                             class="form-control">
-                        <!-- <label for="orangeForm-name3"></label> -->
                     </div>
                     <div class="md-form">
                         <i class="fa fa-user prefix grey-text"></i>
-                        <input type="email" placeholder="Your email" #uemail id="orangeForm-email3"
+                        <input type="email" formControlName="email" placeholder="Your email" id="orangeForm-email3"
                             class="form-control">
                     </div>
                     <div class="md-form">
                         <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="password" placeholder="Your password" #upassword id="orangeForm-pass3"
+                        <input type="password" formControlName="password" placeholder="Your password" id="orangeForm-pass3"
                             class="form-control">
                     </div>
                     <div class="md-form">
                         <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="text" placeholder="Your address" #uaddress id="orangeForm-addrs3"
+                        <input type="text" formControlName="address" placeholder="Your address" id="orangeForm-addrs3"
                             class="form-control">
                     </div>
                     <div class="text-center">
                         <button type="submit" class="btn btn-deep-orange"
-                            (click)="confirm(uname.value,uemail.value,upassword.value,uaddress.value)">subscribe<i
+                            (click)="confirm()">subscribe<i
                                 class="fa fa-angle-double-right pl-2" aria-hidden="true"></i></button>
                     </div>
                 </form>
+
+                
                 <!-- Form register -->
-            </div>
+          </div>
         </div>
     </div>
-    <!-- Grid column -->
 </div>
+
+<!-- <div class="login">
+  <div class="custom-icon">
+    <mat-icon class="lock-icon">person</mat-icon>
+  </div>
+  <span class="title">Let's join us</span>
+  <form class="example-form">
+    <mat-form-field>
+      <mat-label>UserName</mat-label>
+      <input type="text" matInput value="{{this.name}}" #username>
+    </mat-form-field>
+    <mat-form-field >
+      <mat-label>Email</mat-label>
+      <input type="email" matInput #useremail>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Address</mat-label>
+      <input type="text" matInput #useraddres>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input type="password" matInput #userpassword>
+    </mat-form-field>
+     <p-toast></p-toast>
+      <p-confirmDialog></p-confirmDialog>
+    <button pButton pRipple label="SIGN ME UP" icon="pi pi-user" class="w-full" (click)="confirm(username.value,userpassword.value,useremail.value,useraddres.value)"></button>
+  </form>
+</div> -->
